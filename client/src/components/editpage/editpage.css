@@ -1,0 +1,149 @@
+.gpt3__header-content-e h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+form.form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 130px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+  
+    background: var(--color-footer);
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 27px;
+    border: 2px solid var(--color-footer);
+    padding: 5px 7px;
+    outline: none;
+    color: #fff;
+  
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+  
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+  
+   border-radius: 5px;
+   margin-top: 25px;
+  }
+
+  /* Add styles for the label wrapping the file input */
+.file-input-label {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    background: var(--color-footer);
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 27px;
+    border: 2px solid var(--color-footer);
+    padding: 5px 7px;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Style the file input to make it invisible */
+  .file-input-label input[type="file"] {
+    display: none;
+  }
+  
+  /* Style the "Choose File" text within the label */
+  .file-input-label span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Apply the same button styles to the file input label */
+  .file-input-label button {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+
+  .quill-container {
+    border: 2px solid var(--color-bg);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background: var(--color-footer);
+    color: var(--color-text);
+  }
+  
+  /* Style the toolbar */
+  .ql-toolbar {
+    background: var(--color-bg);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  /* Style the toolbar icons */
+  .ql-toolbar button {
+    background-color: transparent;
+    color: var(--color-text);
+    margin-right: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the editor content */
+  .ql-container {
+    background-color: var(--color-bg); 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: var(--color-text); 
+    min-height: 200px; 
+    font-family: var(--font-family);
+  }
+  
+  /* Style the editor placeholder text */
+  .ql-editor::before {
+    content: attr(data-placeholder);
+    color: var(--color-bg); /* Set the color of the placeholder text */
+    pointer-events: none;
+    display: block;
+  }

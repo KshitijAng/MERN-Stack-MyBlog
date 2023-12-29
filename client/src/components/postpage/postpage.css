@@ -1,0 +1,83 @@
+.post-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .image img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    color: var(--color-text);
+  }
+  
+  .author {
+    color: #888;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 18px;
+    font-style: italic;
+
+
+  }
+  
+  .content {
+    text-align: left;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    padding: 0 30px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .content a {
+    text-decoration: underline;
+  }
+
+
+  .time {
+    margin-left: 20px; 
+  }
+
+  .edit-row {
+    text-align: center;
+  }
+  
+  button {
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    width: 100%;
+    min-height: 50px;
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff; /* Set text color to white */
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    gap: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .button-link {
+    text-decoration: none;
+  }
+  
+  .button-link svg {
+    height: 17px;
+    margin-left: 5px; 
+  }
